@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="./styles.css">
+  <style>
+    * {
+  box-sizing: border-box; background-color:none;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f6f7;
+}
+
+.header {
+  text-align: center;
+  text-transform: none;
+  padding: 32px;
+  background-color: #0a0a26;
+  color: #fff;
+  border-bottom: 4px solid #fdb347;
+}
+
+div.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  text-align: center;
+  border-box: 5px solid grey;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 5px solid grey;
+}
+</style>
+</head>
+<body>
+    <header class="header">
+      <h1>2023 Popular Sport Cars</h1>
+    </header>
+    <div class="gallery" >
+      <a target="_blank" href="../maserati-granturismo-primaserie-75th-anniversary-launch-edition.jpg">
+      <img src="../maserati-granturismo-primaserie-75th-anniversary-launch-edition.jpg" alt="Maserati Granturismo">
+      <div class="desc">Maserati Granturismo</div>
+   
+      <a target="_blank" href="./aston-martin-v12-vantage-1024x683.jpg" alt="Asto Martin Vantage">
+      <img src="./aston-martin-v12-vantage-1024x683.jpg" alt="Aston Martin Vantage">
+      <div class="desc">Aston Martin Vantage</div>
+    
+      <a target="_blank" href="c:\Users\T470\Desktop\Samkelo Dlamini Coding\Coding Projects\Photo Gallery Project\Sport Cars Photo Gallery Project\17 mcartura.jpeg" alt="Asto Martin Vantage">
+      <img src="c:\Users\T470\Desktop\Samkelo Dlamini Coding\Coding Projects\Photo Gallery Project\Sport Cars Photo Gallery Project\17 mcartura.jpeg" alt="Mcartura">
+      <div class="desc">Mcartura</div>
+   
+      <a target="_blank" href="./2022-audi-r8-coupe-front-angle-view-carbuzz-911950.jpg">
+      <img src="./2022-audi-r8-coupe-front-angle-view-carbuzz-911950.jpg" alt="Audi R8">
+      <div class="desc">Audi R8</div>
+ 
+      <a target="_blank" href="./5854-mclaren570scoupe-mantisgreen-0051.jpg">
+      <img src="./5854-mclaren570scoupe-mantisgreen-0051.jpg" alt="Mclaren">
+      <div class="desc">Mclaren 570S</div>
+ 
+      <a target="_blank" href="./30b80f927b9d978c63feed53b84e4025.jpg">
+      <img src="./30b80f927b9d978c63feed53b84e4025.jpg" alt="Chevrolet Corvette">
+      <div class="desc">Chevrolet Corvette</div>
